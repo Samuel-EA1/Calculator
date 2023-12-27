@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="timer.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nabataean&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+Nabataean&display=swap" rel="stylesheet">
+
+	
+</head>
+<body>
+
+<div class="header">
+	<h1>Set Timer</h1>
+</div>
+
+<div class="clockDisplay">
+	<h1 id="hour"></h1>
+	<p>:</p>
+	<h1 id="minute"></h1>
+	<p>:</p>
+	<h1 id="second"></h1>
+	<p>:</p>
+	<h1 id="millisecond"></h1>
+</div>
+
+<div class="buttons">
+	<button>Start</button>
+	<button>Pause</button>
+</div>
+
+<h1 id="ee"></h1>
+
+<script type="text/javascript">
+	
+	setInterval(myTimer(), 1000);
+
+	function myTimer(){
+		const d = new Date();
+		document.getElementById('millisecond').innerHTML = d.getMilliseconds();
+		document.getElementById('second').innerHTML = d.getSeconds();
+		document.getElementById('minute').innerHTML = d.getMinutes();
+		document.getElementById('millisecond').innerHTML = d.getMilliseconds();
+
+	}
+</script>
+</body>
+</html>

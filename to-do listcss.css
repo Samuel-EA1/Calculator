@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #BA00FF;
+}
+
+.headText h1 {
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.headText p {
+	text-align: center;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+
+}
+
+.container {
+/*	background-color: red;*/
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inside input {
+	height: 35px;
+	width: 489px;
+	margin-left: 105px;
+	text-align: left;
+	padding-left: 9px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px; 
+	border: solid 1px black;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+.inside input:hover {
+	background-color: #FDF0FF;
+}
+
+.inside button {
+	height: 38px;
+	width: 39px;
+	cursor: pointer;
+	background-color: white;
+	border: solid 1px black;
+	border-radius: 4px;
+	font-size: 20px;
+	padding-bottom: 25px;
+	color: #BA00FF;
+	font-weight: bold;
+}
+
+.inside button:active {
+	background-color: #6F147D;
+	color: white;
+}
+
+.Mylist {
+/*	background-color: red;*/
+	width: 550px;
+	margin: 15px auto 0px auto;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	padding-left: 15px;
+
+}
+
+.MyList table tr {
+	display: block;
+}
+
+
+ul {
+	margin-top: 15px;
+	width: 551px;
+	height: auto;
+	font-size: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: sans-serif;
+	display: block;
+
+
+	
+}
+ul li {
+	text-align: left;
+	margin-left: 5px;
+	padding: 3px;
+	list-style: none;
+	border-top: black 1px solid;
+	border-left: red 3px solid;
+	background-color: white;
+	margin-top: 8px;
+	padding-left: 5px;
+	display: block;
+}
+
+ul button {
+	float: right;
+	margin-top: -1px;
+	background-color: #BA00FF;
+	border: none;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 3px;
+	border: black 1px solid;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+ul button:active {
+	background-color: #6F147D;
+	color: white;
+}

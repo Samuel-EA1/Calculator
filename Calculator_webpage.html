@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyOnlineCalculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator webpagecss.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nabataean&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+Nabataean&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="head_text">
+	<h1>Web Calculator</h1>
+</div>
+
+<div class="calculator">
+	<input type="text" id="resultDisplay" value="0"  readonly/>
+	<div class="row1">
+		<button onclick="appendToDisplay('7')">7</button>
+		<button onclick="appendToDisplay('8')">8</button>
+		<button onclick="appendToDisplay('9')">9</button>
+		<button onclick="appendToDisplay('/')">&#247</button>
+	</div>
+	
+	<div class="row2">
+		<button onclick="appendToDisplay('4')">4</button>
+		<button onclick="appendToDisplay('5')">5</button>
+		<button onclick="appendToDisplay('6')">6</button>
+		<button onclick="appendToDisplay('*')">&#215</button>
+	</div>
+
+	<div class="row3">
+		<button onclick="appendToDisplay('1')">1</button>
+		<button onclick="appendToDisplay('2')">2</button>
+		<button onclick="appendToDisplay('3')">3</button>
+		<button onclick="appendToDisplay('+')">+</button>
+	</div>
+
+	<div class="row4">
+		<button onclick="appendToDisplay('0')">0</button>
+		<button onclick="clearResult()">C</button>
+		<button onclick="appendToDisplay('.')">.</button>
+		<button onclick="appendToDisplay('-')">&#8722</button>
+	</div>
+
+	<div class="row5">
+		<button onclick="calculate()">=</button>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+	var displayValue = document.getElementById('resultDisplay').value;
+	console.log(displayValue);
+
+	function appendToDisplay(value){
+	    displayValue = displayValue + value;
+		updateResult();
+	}
+
+	function updateResult(){
+		document.getElementById('resultDisplay').value = displayValue;
+	}
+
+	function calculate(){
+		var finalResult = eval(displayValue);
+		finalResult2String = String(finalResult);
+		document.getElementById('resultDisplay').value = finalResult;
+	}
+	
+	function clearResult(){
+		displayValue = "";
+		document.getElementById('resultDisplay').value = displayValue;
+	}
+</script>
+</body>
+</html>

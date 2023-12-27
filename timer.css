@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*Fonts
+font-family: 'Noto Sans Nabataean', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Pacifico', cursive;
+*/
+
+body {
+	background-color: #070073;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans Nabataean', sans-serif;
+	margin-top: 15px;
+}
+
+.clockDisplay {
+	/*background-color: white;*/
+	display: flex;
+	justify-content: space-around;
+	width: 865px;
+	margin: 35px auto 0px auto;
+}
+
+.clockDisplay h1 {
+	font-size: 95px;
+	border: solid red 1px;
+	background-color: white;
+	width: 125px;
+	color: #070073;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans Nabataean', sans-serif;
+}
+
+.clockDisplay p {
+	font-size: 85px;
+	color: white;
+}
+
+.buttons {
+/*	background-color: white;*/
+	width: 515px;
+	margin: 25px auto 0px auto;
+	text-align: center;
+}
+
+.buttons button {
+	height: 45px;
+	width: 115px;
+	margin: 37px;
+	background-color: white;
+	color: #070073;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: bold;
+}
