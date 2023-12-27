@@ -1,0 +1,552 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #03D6C0;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navLinks a {
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.navLinks ul li {
+	display: inline-block;
+	padding-top: 13px;
+	margin: 10px;
+}
+
+.navLogo {
+	padding-top: 18px;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Teko', sans-serif;
+	/*	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'Raleway', sans-serif;*/
+
+
+}
+
+.navLogo span {
+	color: blue;
+}
+
+.calculator {
+	background-color: #404242;
+	width: 555px;
+	height: 555px;
+	margin: 45px auto 0px auto;
+	border: black solid 2px;
+	margin-top: 8px;
+}
+
+.calculator input {
+	width: 539px;
+	height: 105px;
+	margin-left: 5.5px;
+	margin-top: 2px;
+	text-align: right;
+	font-size: 35px;
+	font-family: 'Teko', sans-serif;
+	border: white dashed 3px;
+	color: black;
+	border-radius: 9.5px;
+}
+
+.calculator button:hover {
+	border: #D80000 solid 2px;
+}
+
+.calculator button:active {
+	border: black solid 3px;
+}
+
+.row1 {
+	/*background-color: red;*/
+	margin-top: 7px;
+
+}
+
+.row1 button {
+	height: 80px;
+	width: 132px;
+	margin-left: 3px;
+	background-color: white;
+	border: none;
+	font-size: 25px;
+	font-family: 'Teko', sans-serif;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.row2 {
+	margin-top: 7px;
+}
+
+.row2 button {
+	height: 80px;
+	width: 132px;
+	margin-left: 3px;
+	background-color: white;
+	border: none;
+	font-size: 25px;
+	font-family: 'Teko', sans-serif;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.row3 {
+	margin-top: 7px;
+}
+
+.row3 button {
+	height: 80px;
+	width: 132px;
+	margin-left: 3px;
+	background-color: white;
+	border: none;
+	font-size: 25px;
+	font-family: 'Teko', sans-serif;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.row4 {
+	margin-top: 7px;
+}
+
+.row4 button {
+	height: 80px;
+	width: 132px;
+	margin-left: 3px;
+	background-color: white;
+	border: none;
+	font-size: 25px;
+	font-family: 'Teko', sans-serif;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.row5 {
+	margin-top: 10px;
+}
+
+.row5 button {
+	height: 80px;
+	width: 332px;
+	margin-left: 117px;
+	background-color: white;
+	border: #D80000 solid 1px;
+	font-size: 25px;
+	font-family: 'Teko', sans-serif;
+	cursor: pointer;
+	border-radius: 9.5px;
+}
+
+.head_text h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 561px) {
+	.calculator {
+		background-color: #404242;
+		width: 545px;
+		height: 523px;
+	}
+
+	.calculator input {
+		width: 527px;
+		height: 105px;
+		margin-top: 2px;
+	}
+
+	.row1 button {
+		height: 70px;
+		width: 125px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 70px;
+		width: 125px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 70px;
+		width: 125px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 70px;
+		width: 125px;
+		margin-left: 6.5px;
+	}
+}
+
+@media screen and (max-width: 549px) {
+	.calculator {
+		background-color: #404242;
+		width: 499px;
+		height: 499px;
+	}
+
+	.calculator input {
+		width: 481px;
+		height: 91px;
+		margin-top: 2px;
+	}
+
+	.row1 button {
+		height: 70px;
+		width: 114px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 70px;
+		width: 114px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 70px;
+		width: 114px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 70px;
+		width: 114px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 70px;
+		width: 332px;
+		margin-left: 87px;
+	}
+}
+
+@media screen and (max-width: 505px) {
+	.calculator {
+		background-color: #404242;
+		width: 455px;
+		height: 449px;
+	}
+
+	.calculator input {
+		width: 437px;
+		height: 79px;
+		margin-top: 2px;
+	}
+
+	.row1 button {
+		height: 61px;
+		width: 103px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 61px;
+		width: 103px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 61px;
+		width: 103px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 61px;
+		width: 103px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 70px;
+		width: 312px;
+		margin-left: 79px;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	.calculator {
+		background-color: #404242;
+		width: 415px;
+		height: 512px;
+	}
+
+	.calculator input {
+		width: 398px;
+		height: 99px;
+		margin-top: 2px;
+	}
+
+	.row1 button {
+		height: 71px;
+		width: 93px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 71px;
+		width: 93px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 71px;
+		width: 93px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 71px;
+		width: 93px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 70px;
+		width: 312px;
+		margin-left: 55px;
+	}
+}
+
+@media screen and (max-width: 421px) {
+	.calculator {
+		background-color: #404242;
+		width: 385px;
+		height: 512px;
+	}
+
+	.calculator input {
+		width: 368px;
+		height: 99px;
+		margin-top: 2px;
+	}
+
+	.row1 button {
+		height: 71px;
+		width: 85px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 71px;
+		width: 85px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 71px;
+		width: 85px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 71px;
+		width: 85px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 70px;
+		width: 312px;
+		margin-left: 38px;
+	}
+}
+
+@media screen and (max-width: 393px) {
+	.calculator {
+		background-color: #404242;
+		width: 369px;
+		height: 501px;
+	}
+
+	.calculator input {
+		width: 352px;
+		height: 99px;
+		margin-top: 3px;
+	}
+
+	.row1 button {
+		height: 69px;
+		width: 81.1px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 69px;
+		width: 81.1px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 69px;
+		width: 81.1px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 69px;
+		width: 81.1px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 65px;
+		width: 299px;
+		margin-left: 35px;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	.calculator {
+		background-color: #404242;
+		width: 335px;
+		height: 483px;
+	}
+
+	.calculator input {
+		width: 319px;
+		height: 99px;
+		margin-top: 3px;
+	}
+
+	.row1 button {
+		height: 66px;
+		width: 73px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 66px;
+		width: 73px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 66px;
+		width: 73px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 66px;
+		width: 73px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 65px;
+		width: 252px;
+		margin-left: 45px;
+	}
+}
+
+@media screen and (max-width: 343px) {
+	.calculator {
+		background-color: #404242;
+		width: 311px;
+		height: 483px;
+	}
+
+	.calculator input {
+		width: 293px;
+		height: 99px;
+		margin-top: 3px;
+	}
+
+	.row1 button {
+		height: 65px;
+		width: 67px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 65px;
+		width: 67px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 65px;
+		width: 67px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 65px;
+		width: 67px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 65px;
+		width: 252px;
+		margin-left: 31px;
+	}
+}
+
+@media screen and (max-width: 318px) {
+	.calculator {
+		background-color: #404242;
+		width: 291px;
+		height: 483px;
+	}
+
+	.calculator input {
+		width: 273px;
+		height: 99px;
+		margin-top: 3px;
+	}
+
+	.row1 button {
+		height: 65px;
+		width: 62px;
+		margin-left: 6.5px;
+	}
+
+	.row2 button {
+		height: 65px;
+		width: 62px;
+		margin-left: 6.5px;
+	}
+
+	.row3 button {
+		height: 65px;
+		width: 62px;
+		margin-left: 6.5px;
+	}
+
+	.row4 button {
+		height: 65px;
+		width: 62px;
+		margin-left: 6.5px;
+	}
+
+	.row5 button {
+		height: 65px;
+		width: 252px;
+		margin-left: 21px;
+	}
+}
