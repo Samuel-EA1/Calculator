@@ -3,10 +3,13 @@
 	padding: 0px;
 }
 
+
 body {
 	background-color: #03D6C0;
+   height: 100vh;
+	border: red 2px solid;
 }
-
+ 
 .navBar {
 	display: flex;
 	justify-content: space-around;
@@ -42,7 +45,7 @@ body {
 
 .calculator {
 	background-color: #404242;
-	width: 555px;
+	max-width: 555px;
 	height: 555px;
 	margin: 45px auto 0px auto;
 	border: black solid 2px;
@@ -162,43 +165,50 @@ body {
 /*Media Queries*/
 
 @media screen and (max-width: 561px) {
+ 
+     
 	.calculator {
 		background-color: #404242;
-		width: 545px;
-		height: 523px;
+	
+		height: 100vh;
 	}
 
 	.calculator input {
-		width: 527px;
+		width: 178px;
 		height: 105px;
 		margin-top: 2px;
 	}
 
 	.row1 button {
-		height: 70px;
+		height: 20px;
 		width: 125px;
 		margin-left: 6.5px;
 	}
 
 	.row2 button {
-		height: 70px;
+		height: 20px;
 		width: 125px;
 		margin-left: 6.5px;
 	}
 
 	.row3 button {
-		height: 70px;
+		height: 20px;
 		width: 125px;
 		margin-left: 6.5px;
 	}
 
 	.row4 button {
-		height: 70px;
+		height: 20px;
 		width: 125px;
 		margin-left: 6.5px;
 	}
+	.row5 button {
+		height: 20px;
+		width: 332px;
+		margin-left: 87px;
+	}
 }
-
+/* 
 @media screen and (max-width: 549px) {
 	.calculator {
 		background-color: #404242;
@@ -507,11 +517,11 @@ body {
 	}
 }
 
-@media screen and (max-width: 318px) {
+@media screen and (max-width: 320px) {
 	.calculator {
-		background-color: #404242;
-		width: 291px;
-		height: 483px;
+		background-color:red;
+		width: 451px;
+		height: 883px;
 	}
 
 	.calculator input {
@@ -549,4 +559,5 @@ body {
 		width: 252px;
 		margin-left: 21px;
 	}
-}
+} */
+/* hi */

@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+   
+
+
+
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MyOnlineCalculator</title>
-	<link rel="stylesheet" type="text/css" href="calculatorWebpagecss.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -25,46 +31,50 @@
 
 </head>
 <body>
+ 
+	<div class="container">
 
-<h1>ghgjhgjkhgjkhgjk</h1>
 
-<div class="head_text">
-	<h1>Web Calculator</h1>
-</div>
+		
+		
+		<div class="head_text">
+			<h1>Web Calculator</h1>
+		</div>
 
-<div class="calculator">
-	<input type="text" id="resultDisplay" value="0"  readonly/>
-	<div class="row1">
-		<button onclick="appendToDisplay('7')">7</button>
-		<button onclick="appendToDisplay('8')">8</button>
-		<button onclick="appendToDisplay('9')">9</button>
-		<button onclick="appendToDisplay('/')">&#247</button>
-	</div>
-	
-	<div class="row2">
-		<button onclick="appendToDisplay('4')">4</button>
-		<button onclick="appendToDisplay('5')">5</button>
-		<button onclick="appendToDisplay('6')">6</button>
-		<button onclick="appendToDisplay('*')">&#215</button>
-	</div>
+		<div class="calculator">
+			<input type="text" id="resultDisplay" value="0"  readonly/>
+			<div class="row1">
+				<button onclick="appendToDisplay('7')">7</button>
+				<button onclick="appendToDisplay('8')">8</button>
+				<button onclick="appendToDisplay('9')">9</button>
+				<button onclick="appendToDisplay('/')">&#247</button>
+			</div>
+			
+			<div class="row2">
+				<button onclick="appendToDisplay('4')">4</button>
+				<button onclick="appendToDisplay('5')">5</button>
+				<button onclick="appendToDisplay('6')">6</button>
+				<button onclick="appendToDisplay('*')">&#215</button>
+			</div>
+			
+			<div class="row3">
+				<button onclick="appendToDisplay('1')">1</button>
+				<button onclick="appendToDisplay('2')">2</button>
+				<button onclick="appendToDisplay('3')">3</button>
+				<button onclick="appendToDisplay('+')">+</button>
+			</div>
+			
+			<div class="row4">
+				<button onclick="appendToDisplay('0')">0</button>
+				<button onclick="clearResult()">C</button>
+				<button onclick="appendToDisplay('.')">.</button>
+				<button onclick="appendToDisplay('-')">&#8722</button>
+			</div>
 
-	<div class="row3">
-		<button onclick="appendToDisplay('1')">1</button>
-		<button onclick="appendToDisplay('2')">2</button>
-		<button onclick="appendToDisplay('3')">3</button>
-		<button onclick="appendToDisplay('+')">+</button>
-	</div>
-
-	<div class="row4">
-		<button onclick="appendToDisplay('0')">0</button>
-		<button onclick="clearResult()">C</button>
-		<button onclick="appendToDisplay('.')">.</button>
-		<button onclick="appendToDisplay('-')">&#8722</button>
-	</div>
-
-	<div class="row5">
-		<button onclick="calculate()">=</button>
-	</div>
+			<div class="row5">
+				<button onclick="calculate()">=</button>
+			</div>
+		</div>
 </div>
 
 
