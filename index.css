@@ -180,7 +180,7 @@ html {
 /*Media Queries*/
 
 @media screen and (max-width: 561px) {
-	.head_text h1 {
+	.head_text h1git add . {
 		margin-top: 9px;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
